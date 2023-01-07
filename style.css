@@ -21,6 +21,10 @@ p {
     margin-bottom: 16px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -64,7 +68,12 @@ p {
     line-height: 23px;
     color: #FFFFFF;
     background: #F15B22;
-    cursor: pointer;
+    border: 1px solid #F15B22;
+}
+
+.hero-content button:hover {
+    color: #F15B22;
+    background: #FFFFFF;
 }
 
 /******* My Failures ********/
@@ -169,6 +178,12 @@ p {
     line-height: 23px;
     font-weight: 600;
     color: #F15B22;
+    border: 1px solid #FFFFFF;
+}
+
+.call-to-action button:hover {
+    background: #F15B22;
+    color: #FFFFFF;
 }
 
 /* Footer */
@@ -225,4 +240,10 @@ p {
     background-color: #FFFFFF;
     color: #F15B22;
     border-radius: 8px;
+    border: 1px solid #FFFFFF;
+}
+
+.footer-subscribe input[type="submit"]:hover {
+    background-color: #F15B22;
+    color: #FFFFFF;
 }
